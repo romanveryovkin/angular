@@ -1,0 +1,33 @@
+{
+  "name": "angularmagic",
+  "description": "angular magic app",
+  "version": "1.0.0",
+  "dependencies": {},
+  "devDependencies": {
+    "bower-files": "~3.11.1",
+    "browserify": "latest",
+    "browserify-shim": "latest",
+    "domready": "latest",
+    "gulp": "^3.9.1",
+    "gulp-browserify": "latest",
+    "gulp-concat": "latest",
+    "gulp-if": "~2.0.0",
+    "gulp-jshint": "latest",
+    "gulp-livereload": "latest",
+    "gulp-run-sequence": "latest",
+    "gulp-sass": "~2.1.0-beta",
+    "gulp-uglify": "~1.4.0",
+    "lodash": "latest",
+    "stringify": "~3.1.0",
+    "vinyl-source-stream": "latest",
+    "watchify": "latest"
+  },
+  "browserify": {
+    "transform": [
+      "browserify-shim"
+    ]
+  },
+  "browserify-shim": {
+    "angular": "global:angular"
+  }
+}
